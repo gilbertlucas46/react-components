@@ -41,6 +41,8 @@ const ModalCard = styled.div`
     background-color: white;
     z-index:10;
     min-width: 320px;
+    max-width: 600px;
+    margin-bottom: 100x;
 `;
 const CloseButton = styled.button`
     position: absolute;
