@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Contains Pre-Crated Usable Components
+## Contains Pre-Crated Re-usable Components
 * Modal
 * Portal
 * Toggle
