@@ -2,11 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Contains Pre-Crated Re-usable Components/Utilities
 
-###Elements
+### `Elements`
 * Modal
 * Icon
 * Cards
-###Utilities
+### `Utilities`
 * Portal
 * Toggle
 * Transistions
