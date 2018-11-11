@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### `Utilities`
 * Portal
 * Toggle
-* Transistions
+* Transitions
 * Colors
 
 ## Available Scripts
