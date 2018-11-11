@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Portal
 * Toggle
 * Icon
+* Transistions
 
 ## Available Scripts
 
