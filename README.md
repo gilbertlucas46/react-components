@@ -11,6 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Toggle
 * Transitions
 * Colors
+* CSS Positions
 
 ## Available Scripts
 
