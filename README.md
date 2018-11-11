@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Contains Pre-Crated Re-usable Elements & Utilities
+## Contains Pre-Created Re-usable Elements & Utilities
 
 ### `Elements`
 * Modal
