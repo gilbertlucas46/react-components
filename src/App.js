@@ -1,13 +1,32 @@
 import React, { Component, Fragment } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Toggle} from 'Utilities';
-import {Modal} from 'Elements';
+import { Toggle } from 'Utilities';
+import { Modal } from 'Elements';
+import User from './User';
+import {UserContext} from './UserContext';
 
+
+
+class UserProvider extends Component {
+  state = {
+    id: '123',
+    email: 'gilbertlucas46@gmail.com',
+    name: 'Gilbert'
+  }
+  render() {
+    return (
+      <UserContext.Provider value={{user: this.state}}>
+      {this.props.children}
+      </UserContext.Provider>
+    )
+  }
+}
 
 class App extends Component {
   render() {
     return (
+      <UserProvider>
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -24,7 +43,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
-
+        <User/>
         <Toggle>
           {({ on, toggle }) => (
             <Fragment>
@@ -37,6 +56,7 @@ class App extends Component {
         </Toggle>
 
       </div>
+      </UserProvider>
     );
   }
 }
